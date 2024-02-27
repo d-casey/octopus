@@ -1,0 +1,160 @@
+/* Octopus Energy brand colours used in the design */
+:root {
+  --hemocyanin: #180048;
+  --ice: #f0ffff;
+  --plum: #600e6b;
+  --purpleHaze: #a49fc8;
+  --siphon: #100030;
+  --sohoLights: #f050f8;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Gotham, helvetica, arial, sans-serif;
+  color: var(--ice);
+  font-weight: 100;
+}
+
+body {
+  background: var(--siphon);
+}
+
+h3 {
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+.light-bg {
+  background-color: #180048;
+}
+
+.content {
+  padding: 5vw;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+
+  img {
+    height: 2em;
+    cursor: pointer;
+  } 
+}
+
+.footer {
+  font-size: x-small;
+  color: #a49fc8;
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  p {
+    color: #a49fc8;
+  }
+
+  img {
+    width: 430px;
+    border-radius: 10px;
+  }
+}
+
+.product-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: large;
+
+  li {
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+  }
+}
+
+.btn {
+  background-color: #f050f8;
+  color: #100030;
+  border-radius: 10px;
+  border: none;
+  font-size: medium;
+  cursor: pointer;
+  transition: all .15s linear;
+}
+
+.btn:active {
+  filter: brightness(0.85);
+}
+
+.btn:disabled,
+.btn[disabled] {
+  background-color: #600e6b;
+  color: #a49fc8;
+}
+
+.primary-btn {
+  width: 100%;
+  height: 50px;
+}
+
+.small-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.text-above {
+  position: relative;
+
+  span {
+    font-size: x-small;
+    color:#a49fc8;
+    position: absolute;
+    bottom: 25px;
+    left: -8px;
+  }
+}
+
+.specifications {
+  ul {
+    padding: initial;
+    width: 50%;
+
+    li {
+      min-height: 2em;
+    }
+  }
+}
+
+.aligned-lists {
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+}
