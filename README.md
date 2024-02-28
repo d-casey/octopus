@@ -74,3 +74,10 @@ You can run tests from the client directory.
 ```sh
 cd client && yarn test
 ```
+
+## Demo
+
+https://github.com/d-casey/octopus/assets/34679538/007c7e2c-4b36-48d5-8761-8a25c3112166
+
+
+
